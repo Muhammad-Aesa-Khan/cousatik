@@ -1,0 +1,135 @@
+/* utility classes start here */
+.bg-light {
+    background-color: rgb(241, 241, 241) !important;
+}
+
+.dark-gray {
+    background-color: rgb(207, 207, 207);
+}
+
+.rounded-image {
+    border-radius: 25px;
+}
+
+/* utility classes end here */
+
+
+/* fist section css start here */
+
+.select-item {
+    width: 80px;
+    border-radius: 25px;
+}
+
+/* fist section css end here */
+
+
+/* second section css start here  */
+
+/* first section in the second section  */
+
+.logs-img {
+    width: 100px;
+    height: 35px;
+}
+
+.border-none {
+    border: none !important;
+}
+
+.first-img-radius {
+    border-radius: 15px !important;
+}
+
+.card-radius {
+    border-radius: 10px !important;
+}
+
+.second-img-radius-1 {
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+@media screen and (min-width : 992px) {
+
+    .second-card {
+        width: 60%;
+        position: absolute;
+        margin-top: -115%;
+        margin-left: 60% !important;
+        height: 120px !important;
+    }
+
+}
+
+.second-img-radius {
+    border-radius: 15px 15px 0px 0px;
+
+}
+
+/* second section in the second section  */
+
+.p-font-size {
+    font-size: 14px;
+}
+
+
+/* second section css end here  */
+
+.icon-font-size {
+    font-size: 28px;
+}
+
+.p-font-size-13 {
+    font-size: 13px;
+}
+
+.bg-light-blue {
+    background-color: #3c5b88;
+}
+
+.bg-dark-blue {
+    background-color: #1a365d;
+}
+
+.bg-black-blue {
+    background-color: #122633;
+}
+
+.rounded-three-sides-image {
+    border-radius: 10px 0px 10px 10px;
+}
+
+.bg-blackish {
+    background-color: #1a2534;
+}
+
+.bg-blackish-blue {
+    background-color: #001526;
+}
+
+.bg-blackish-blue-2 {
+    background-color: #0d2131;
+}
+
+@media screen and (max-width : 575px) {
+
+    .border-bottom {
+        border-bottom: none !important;
+    }
+
+    .border-right
+    {
+        border-right: none !important;
+    }
+
+}
+
+@media screen and (max-width:991px) {
+
+    .display-none
+    {
+        display: none;
+    }
+    
+}

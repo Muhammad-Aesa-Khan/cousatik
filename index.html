@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 5</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/4f8ba475f0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- menu section -->
+    <nav class="navbar navbar-expand-lg p-0 border-bottom border-secondary">
+        <div class="container-fluid bg-white px-0">
+            <a class="navbar-brand p-0 border-right border-secondary menu-border-none mr-0" style="height: 48px !important;" href="#">
+                <div class="col-sm-12">
+                    <h3 class="text-center pt-2">COURSATIK</h3>
+                </div>
+            </a>
+            <button class="navbar-toggler bg-dark mr-2 my-1 " type="button" data-toggle="collapse"
+                data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon text-white"><i class="fa-solid fa-bars"></i></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav w-100">
+                    <li class="nav-item border-right border-secondary">
+                        <a class="nav-link p-0" href="#">
+                            <div class="col-sm-12">
+                                <p class="text-center mt-2">Home</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item mr-sm-auto border-right border-secondary menu-border-none">
+                        <a class="nav-link p-0" href="#">
+                            <div class="">
+                                <p class="text-center mt-2 col-sm-12">Pricing</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item my-auto pb-2 pb-sm-0">
+                        <a class="nav-link p-0" href="#">
+                            <div class="text-center col-sm-12">
+                                <select name="" id="" class="bg-dark text-white p-1 select-item">
+                                    <option class="p-2"><img src="eng.jpg" class="img-fluid"> Eng</option>
+                                </select>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-0" href="#">
+                            <div class="bg-dark text-white px-0 col-sm-12">
+                                <button
+                                    class="btn btn-block bg-dark text-white text-nowrap py-auto px-auto text-center"
+                                    style="font-size: 14px; text-align: center !important; height: 48px;">GET
+                                    STARTED</button>
+                            </div>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+
+            <!-- <div class="row border-bottom border-secondary">
+                <div class="col-sm-4 col-md-3 col-lg-2 border-right border-secondary">
+                    <h3 class="text-center pt-1">COURSATIK</h3>
+                </div>
+                <div class="col-sm-2 col-md-2 col-lg-1 border-right border-secondary">
+                    <p class="text-center mt-2">Home</p>
+                </div>
+                <div class="col-sm-2 col-md-2 col-lg-1 border-right border-secondary">
+                    <p class="text-center mt-2">Pricing</p>
+                </div>
+                <div class="col-sm-2 col-md-2 col-lg-2 text-center pb-2 ml-auto my-auto">
+                    <select name="" id="" class="bg-dark text-white p-1 select-item">
+                        <option class="p-2"><img src="eng.jpg" class="img-fluid"> Eng</option>
+                    </select>
+                </div>
+                <div class="col-sm-2 col-md-2 col-lg-2 bg-dark text-white px-0">
+                    <button class="btn btn-block bg-dark text-white text-nowrap py-auto px-auto mt-2 text-center"
+                        style="font-size: 14px; text-align: center !important;">GET
+                        STARTED</button>
+                </div>
+            </div> -->
+        </div>
+    </nav>
+
+    <!-- second section start here -->
+
+    <div class="container-fluid px-0">
+
+        <!-- first section in the second second start here -->
+        <div class="row bg-light mx-0">
+            <div class="container my-3 my-lg-5 px-0">
+                <div class="row my-0 my-lg-5 mx-0">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-7 my-auto">
+                        <div>
+                            <h1>Turn your expertise into</h1>
+                            <h1>revenue with online courses</h1>
+                            <p>Create,market and sell your expertise with a single flatform that gives you total control
+                                of
+                                your brand and business</p>
+
+                            <button class="btn btn-dark px-5 my-4">GET STARTED FREE</button>
+                            <p>TRUSTED BY</p>
+                        </div>
+                        <div class="d-flex flex-wrap justify-content-between">
+                            <img src="1.png" class="img-fluid mr-1 mb-2 logs-img" alt="">
+                            <img src="2.png" class="img-fluid mr-1 mb-2 logs-img" alt="">
+                            <img src="3.png" class="img-fluid mr-1 mb-2 logs-img" alt="">
+                            <img src="4.png" class="img-fluid mr-1 mb-2 logs-img" alt="">
+                            <img src="5.png" class="img-fluid mb-2 logs-img" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+
+                        <div class="my-auto pt-3 pt-lg-0">
+                            <div class="card bg-light border-none">
+                                <img src="6.jpg" class="img-fluid rounded first-img-radius" alt="">
+
+                                <div class="card-body px-0 pb-0">
+                                    <h6 class="mb-0">Xayli Barclay</h6>
+                                    <p class="mb-0">Visual Content Creation Consultant</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="display-none">
+                            <div class="second-card">
+                                <div class="card first-img-radius mt-3 mt-lg-0">
+                                    <img src="1.jpg" class="img-fluid second-img-radius">
+                                    <div class="card-body">
+                                        <h6 class="mb-0">Create International vedio content</h6>
+                                        <p class="mb-0">Xayli Barclay</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- first section in the second second end here -->
+
+
+        <!-- second section in the second second start here -->
+        <div class="row dark-gray mx-0">
+            <div class="container px-0">
+                <div class="row mx-0 py-5">
+                    <div class="col-sm-12">
+                        <h6>CREATE YOUR COURSE</h6>
+                        <h1>Own the learning experience</h1>
+                        <p class="p-font-size">Quickly create professional digital learning products for any kind of
+                            audience with a
+                            user-friendly course builder, no experience or technical expertise required</p>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-4 mt-5">
+                        <div class="card bg-white border-none card-radius">
+                            <img src="1.jpg" alt="" class="img-fluid second-img-radius-1">
+                            <div class="card-body">
+                                <h6 class="text-center">Pick a template</h6>
+
+                                <p class="text-center p-font-size">Start with ready-to-use design templates and themes
+                                    or fully
+                                    customize to match your
+                                    look and brands</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-4 mt-5">
+                        <div class="card bg-white border-none card-radius">
+                            <img src="1.jpg" alt="" class="img-fluid second-img-radius-1">
+                            <div class="card-body">
+                                <h6 class="text-center">Create course content</h6>
+
+                                <p class="text-center p-font-size">Start with ready-to-use design templates and themes
+                                    or fully
+                                    customize to match your
+                                    look and brands</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-4 mt-5">
+                        <div class="card bg-white border-none card-radius">
+                            <img src="1.jpg" alt="" class="img-fluid second-img-radius-1">
+                            <div class="card-body">
+                                <h6 class="text-center">Preview and publish</h6>
+
+                                <p class="text-center p-font-size">Start with ready-to-use design templates and themes
+                                    or fully
+                                    customize to match your
+                                    look and brands</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 py-5">
+                        <h6>Create your perfect course</h6>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        <h6 class="mb-3">
+                            <i class="fa-brands fa-angular icon-font-size"></i> &nbsp; &nbsp; Live
+                            sesion
+                        </h6>
+
+                        <h6 class="mb-3">
+                            <i class="fa-brands fa-angular icon-font-size"></i> &nbsp; &nbsp; Drip
+                            Schedule
+                        </h6>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        <h6 class="mb-3">
+                            <i class="fa-brands fa-angular icon-font-size"></i> &nbsp; &nbsp; Randomize
+                            Quizes
+                        </h6>
+
+                        <h6 class="mb-3">
+                            <i class="fa-brands fa-angular icon-font-size"></i> &nbsp; &nbsp; Certificates
+                        </h6>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        <h6 class="mb-3">
+                            <i class="fa-brands fa-angular icon-font-size"></i> &nbsp; &nbsp; Assignments
+                        </h6>
+
+                        <h6 class="mb-3">
+                            <i class="fa-brands fa-angular icon-font-size"></i> &nbsp; &nbsp; Communities
+                        </h6>
+                    </div>
+
+                    <div class="col-sm-3 mb-3">
+                        <h6 class="text-nowrap">
+                            <i class="fa-brands fa-angular icon-font-size"></i> &nbsp; &nbsp; Course
+                            Templates
+                        </h6>
+
+                        <h6 class="text-nowrap mb-3">
+                            <i class="fa-brands fa-angular icon-font-size"></i> &nbsp; &nbsp; Coupons
+                        </h6>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- second section in the second second end here -->
+
+        <!-- third section in the second second start here -->
+        <div class="row mx-0 bg-light">
+
+            <div class="container px-0">
+
+                <!-- Build your knowledge business section start here -->
+                <div class="row mx-0 py-5">
+
+                    <div class="col-sm-12 mb-2 mb-md-5">
+                        <h6>MARKET AND SELL YOUR EXPERTISE</h6>
+                        <h1>Build your knowledge business</h1>
+                        <p>Control every aspect of the course site to align to your business neds and put your branded
+                            expertise front-end-center. The best part -- you control the pricing and you keep all your
+                            revenue, with no hidden fees</p>
+                    </div>
+
+                    <div class="col-sm-12 col-md-12 col-lg-5 mb-4">
+                        <img src="4.jpg" class="img-fluid">
+                    </div>
+
+                    <div class="col-lg-1"></div>
+
+                    <div class="col-sm-12 col-md-12 col-lg-6 my-auto">
+                        <h3>Customize your touchpoint</h3>
+                        <p>You own the entire experience across all your digital products
+                            and sales pages to turn your
+                            audience into customers. That includes pricing, your revenue, course data, the look and feel
+                            everthing.</p>
+
+                        <button class="btn btn-dark mt-3 w-50">GET STARTED FREE</button>
+                    </div>
+
+                </div>
+                <!-- Build your knowledge business section end here -->
+
+                <!-- Intergrate with trusted tools section start here -->
+                <div class="row mx-0 pb-5 my-auto">
+
+                    <div class="col-sm-12 col-md-12 col-lg-6 my-auto">
+                        <h2>Intergrate with trusted tools</h2>
+                        <p class="p-font-size">On the Coursatik app store, You can integrate your course business with
+                            app partners you
+                            alredy
+                            know and trust to create and manage growth.</p>
+
+                        <div class="row mx-0">
+                            <div class="col-sm-6 px-0 flex-column">
+                                <p class="p-font-size"><span><i class="fa-solid fa-circle-check"></i>&nbsp;
+                                        &nbsp;</span> Automate emails
+                                </p>
+                                <p class="p-font-size"><span><i class="fa-solid fa-circle-check"></i>&nbsp;
+                                        &nbsp;</span> Convert leads</p>
+                                <p class="p-font-size"><span><i class="fa-solid fa-circle-check"></i>&nbsp;
+                                        &nbsp;</span> Leaverage customer
+                                    success
+                                </p>
+                            </div>
+
+                            <div class="col-sm-6 px-0">
+                                <p class="p-font-size"><span><i class="fa-solid fa-circle-check"></i>&nbsp;
+                                        &nbsp;</span> Automate emails
+                                </p>
+                                <p class="p-font-size"><span><i class="fa-solid fa-circle-check"></i>&nbsp;
+                                        &nbsp;</span> Convert leads</p>
+                                <p class="p-font-size"><span><i class="fa-solid fa-circle-check"></i>&nbsp;
+                                        &nbsp;</span> Leaverage customer
+                                    success
+                                </p>
+                            </div>
+                        </div>
+
+                        <h6 class="pt-3">LAUNCH COURSATIK APP STORE <span><i
+                                    class="fa-solid fa-arrow-right-long"></i></span></h6>
+
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-5">
+                        <img src="4.jpg" class="img-fluid" alt="">
+                    </div>
+
+                </div>
+                <!-- Intergrate with trusted tools section end here -->
+
+                <!-- Leverage students data analytics section start here -->
+                <div class="row bg-light mx-0 py-1 py-md-5">
+                    <div class="col-sm-6 mb-sm-3 col-md-6 col-lg-2">
+                        <div class="p-2 text-white" style="background-color: rgb(35, 35, 68);">
+                            <h5>Student Name</h5>
+                            <p class="mb-0" style="font-size: 12px;">Student ID: 00000000</p>
+                            <p class="mb-0" style="font-size: 12px;">khan@gmail.com</p>
+                        </div>
+                        <div>
+                            <h6 class="p-2 py-3 mb-0" style="background-color: rgb(235, 235, 235);">Course List:</h6>
+                            <div class="d-flex text-nowrap border-bottom pb-2 "
+                                style="background-color: rgb(235, 235, 235);">
+                                <div class="w-50 text-wrap pl-2">
+                                    <p class="mb-0" style="font-size: 13px;">SUBJ 101 FA 2020</p>
+                                </div>
+                                <div class="text-center w-50 pr-2"><i class="fa-solid fa-circle-check"></i></div>
+                            </div>
+                            <div class="d-flex text-nowrap border-bottom pb-2 pt-2"
+                                style="background-color: rgb(235, 235, 235);">
+                                <div class="w-50 text-wrap pl-2">
+                                    <p class="mb-0" style="font-size: 13px;">SUBJ 101 FA 2020</p>
+                                </div>
+                                <div class="text-center w-50 pr-2"><i class="fa-solid fa-circle-check"></i></div>
+                            </div>
+                            <div class="d-flex text-nowrap border-bottom pb-2 pt-2"
+                                style="background-color: rgb(189, 185, 185);">
+                                <div class="w-50 text-wrap pl-2">
+                                    <p class="mb-0" style="font-size: 13px;">SUBJ 101 FA 2020</p>
+                                </div>
+                                <div class="text-center w-50 pr-2">
+                                    <span class="bg-warning rounded-circle"
+                                        style="transform: rotate(180deg) !important; width:23px; height: 23px;"><i
+                                            class="fa-solid fa-triangle-exclamation"></i></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-4 my-4 my-sm-0">
+                        <div class="bg-white p-2">
+                            <div class="d-flex bg-white">
+                                <h6 class="pr-2">SUBJ 103 FA 2020</h6>
+                                <span class="bg-warning rounded-circle text-center"
+                                    style="width: 21px; height: 21px; position: relative; transform: rotate(180deg);"><i
+                                        class="fa-solid fa-triangle-exclamation"></i></span>
+                            </div>
+                            <p class="bg-white" style="font-size: 13px;"> Data Source: <span
+                                    class="px-2 pb-1 rounded bg-primary text-white">Canvas</span></p>
+
+                            <h6 class="bg-white">Cumulative Score</h6>
+                            <p style="font-size: 10px;">This graph compare the student's cumulative score to the average
+                                cumulative scoreduring each week of the semester.</p>
+                            <img src="1.jpg" class="w-100">
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-12 col-lg-6 my-3 my-lg-auto">
+                        <h2>Leverage students data analytics</h2>
+                        <p>With student data analytics at your fingertips, you can inform your future course content and
+                            markrting efforts.</p>
+                        <h6 class="pl-4 pt-3">LEARN MORE ABOUT OUR FRATURES <i class="fa-solid fa-arrow-right"></i></h6>
+                    </div>
+                </div>
+                <!-- Leverage students data analytics section end here -->
+
+            </div>
+
+        </div>
+        <!-- third section in the second second end here -->
+
+        <!-- fourth section start here  -->
+        <div class="row dark-gray mx-0">
+            <div class="container">
+                <!-- Get help how and when you need it section start here  -->
+                <div class="row mx-0 py-3 py-md-5">
+                    <div class="col-sm-12">
+                        <h6>SUCCEED WITH SUPPORT</h6>
+                        <h2>Get help how and when you need it</h2>
+                        <p class="p-font-size">We know how it feels when you're just getting started. With our support
+                            team, a robust creator community and a konwledge base of articals and tutorials, you are
+                            never alone.</p>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-4 pt-2 pt-md-5">
+                        <div class="card dark-gray border-none">
+                            <img class="rounded-image" src="1.jpg" alt="">
+                            <div class="card-body px-0">
+                                <h6>Round-the-clock Support</h6>
+                                <p class="p-font-size-13">
+                                    Access customer support online or by phone, or leaverage our deep knowledge base of
+                                    articals for easy access to everthing you could ever want to know.
+                                </p>
+                                <h6>GO TO HELP CENTER <span class="pl-1"><i class="fa-solid fa-arrow-right"></i></span>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-4 pt-2 pt-md-5">
+                        <div class="card dark-gray border-none">
+                            <img class="rounded-image" src="1.jpg" alt="">
+                            <div class="card-body px-0">
+                                <h6>First-time Creator Support</h6>
+                                <p class="p-font-size-13">
+                                    Access customer support online or by phone, or leaverage our deep knowledge base of
+                                    articals for easy access to everthing you could ever want to know.
+                                </p>
+                                <h6>LOUNCH Coursatik Academy <span class="pl-1"><i
+                                            class="fa-solid fa-arrow-right"></i></span></h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-4 pt-2 pt-md-5">
+                        <div class="card dark-gray border-none">
+                            <img class="rounded-image" src="1.jpg" alt="">
+                            <div class="card-body px-0">
+                                <h6>Join The Creator Community</h6>
+                                <p class="p-font-size-13">
+                                    Access customer support online or by phone, or leaverage our deep knowledge base of
+                                    articals for easy access to everthing you could ever want to know.
+                                </p>
+                                <h6>LEARN MORE <span class="pl-1"><i class="fa-solid fa-arrow-right"></i></span></h6>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Get help how and when you need it section end here  -->
+            </div>
+        </div>
+        <!-- fourth section end here  -->
+
+        <!-- fifth section start here  -->
+        <div class="row bg-light mx-0">
+            <div class="container">
+                <!-- Get help how and when you need it section start here  -->
+                <div class="row mx-0 py-3 py-md-5">
+                    <div class="col-sm-12">
+                        <h6>SCALE YOUR BUSINESS</h6>
+                        <h2>Grow about all the pains </h2>
+                        <p class="p-font-size">Leaverage an online course business platform designed to never hold you
+                            back.</p>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-4 pt-2 pt-md-5">
+                        <div class="card border-none card-radius bg-light-blue">
+                            <img class="second-img-radius-1" src="1.jpg" alt="">
+                            <div class="card-body text-white">
+                                <h6>Seamlessly transition as your business scales</h6>
+                                <p class="p-font-size-13">
+                                    With fexible pricing plans, you can unlock advance features as your business needs
+                                    evolve and change.
+                                </p>
+                                <button class="btn btn-block btn-outline-light">VIEW ALL PLAINS</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-4 pt-2 pt-md-5">
+                        <div class="card border-none card-radius bg-dark-blue">
+                            <img class="second-img-radius-1" src="1.jpg" alt="">
+                            <div class="card-body text-white">
+                                <h6>Seamlessly transition as your business scales</h6>
+                                <p class="p-font-size-13">
+                                    With fexible pricing plans, you can unlock advance features as your business needs
+                                    evolve and change.
+                                </p>
+                                <button class="btn btn-block btn-outline-light">VIEW ALL PLAINS</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-4 pt-2 pt-md-5">
+                        <div class="card border-none card-radius bg-black-blue">
+                            <img class="second-img-radius-1" src="1.jpg" alt="">
+                            <div class="card-body text-white">
+                                <h6>Seamlessly transition as your business scales</h6>
+                                <p class="p-font-size-13">
+                                    With fexible pricing plans, you can unlock advance features as your business needs
+                                    evolve and change.
+                                </p>
+                                <button class="btn btn-block btn-outline-light">VIEW ALL PLAINS</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <!-- Get help how and when you need it section end here  -->
+            </div>
+        </div>
+        <!-- fifth section end here  -->
+
+        <!-- sixth section start here  -->
+        <div class="row dark-gray mx-0">
+            <div class="container">
+                <!-- All kinds of creators earn with coursatik section start here  -->
+                <div class="row mx-0 py-3 py-md-5">
+                    <div class="col-sm-12">
+                        <h6>REAL SUCCESS STORIES</h6>
+                        <h2>All kinds of creators earn with coursatik</h2>
+                        <p class="p-font-size">Join more than 50,000 successful Coursatik Cousrse creators and
+                            businesses.</p>
+                        <h6 class="text-left text-sm-right">GO TO HELP CENTER <span class="pl-1"><i
+                                    class="fa-solid fa-arrow-right"></i></span></h6>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-3 pt-2 pt-md-5">
+                        <div class="card border-none card-radius dark-gray">
+                            <img class="rounded-three-sides-image" src="6.jpg" alt="">
+                            <div class="card-body px-0">
+                                <h5 class="card-title mb-0">Jason Yee</h5>
+                                <p class="p-font-size-13 mb-0">
+                                    Ice Hockey Coach
+                                </p>
+                                <p class="p-font-size-13 mb-0">
+                                    <i>Delivered training to over 2,000 Hockey palyers online</i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-3 pt-2 pt-md-5">
+                        <div class="card border-none card-radius dark-gray">
+                            <img class="rounded-three-sides-image" src="6.jpg" alt="">
+                            <div class="card-body px-0">
+                                <h5 class="card-title mb-0">Latrina Walden</h5>
+                                <p class="p-font-size-13 mb-0">
+                                    Nursing School
+                                </p>
+                                <p class="p-font-size-13 mb-0">
+                                    <i>Helped over 5,000 students in becomimg nurses</i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-3 pt-2 pt-md-5">
+                        <div class="card border-none card-radius dark-gray">
+                            <img class="rounded-three-sides-image" src="6.jpg" alt="">
+                            <div class="card-body px-0">
+                                <h5 class="card-title mb-0">Enterpreneurs On Fire</h5>
+                                <p class="p-font-size-13 mb-0">
+                                    Podcaster
+                                </p>
+                                <p class="p-font-size-13 mb-0">
+                                    <i>Used online courses to generate $50k in 2 months</i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-3 pt-2 pt-md-5">
+                        <div class="card border-none card-radius dark-gray">
+                            <img class="rounded-three-sides-image" src="6.jpg" alt="">
+                            <div class="card-body px-0">
+                                <h5 class="card-title mb-0">Jonathan Levi</h5>
+                                <p class="p-font-size-13 mb-0">
+                                    Enterpreneur
+                                </p>
+                                <p class="p-font-size-13 mb-0">
+                                    <i>Taught 12 courses and 120,000+ students on Coursatik</i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <!-- Get help how and when you need it section end here  -->
+            </div>
+        </div>
+        <!-- sixth section end here  -->
+
+        <!-- seventh section start here  -->
+        <div class="row bg-blackish mx-0 py-1 py-md-5">
+            <div class="container">
+                <!-- Try coursatik free section start here  -->
+                <div class="row mx-0 py-3 py-md-5">
+                    <div class="col-sm-12 text-white text-center">
+                        <h2>Try coursati Free</h2>
+                        <p class="p-font-size">
+                            it's easy for everyone to get started turning your passion into <br> profits. Our
+                            user-friendly platform designed so that the only <br> expertise you need is the one you
+                            alredy here.
+                        </p>
+                        <button class="btn btn-warning"><strong>GET STARTED FREE</strong></button>
+                    </div>
+                </div>
+                <!-- Try coursatik free section end here  -->
+            </div>
+        </div>
+        <!-- seventh section end here  -->
+
+        <!-- eightth section start here  -->
+        <div class="row bg-blackish-blue mx-0 py-1 py-md-5">
+            <div class="container">
+                <!-- first footer section start here  -->
+                <div class="row mx-0 py-3 py-md-5 text-white">
+
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-2 my-3 my-lg-0">
+                        <span><i class="fa-solid fa-minus"></i></span>
+                    </div>
+
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-2 my-3 my-lg-0">
+                        <p class="p-font-size-13">Partners</p>
+                        <p class="p-font-size-13 mb-0">Becoming a Partners</p>
+                        <p class="p-font-size-13 mb-0">Coursatik App Store</p>
+                        <p class="p-font-size-13 mb-0">Expert Market Place</p>
+                        <p class="p-font-size-13 mb-0">Coursatik Developers</p>
+                        <p class="p-font-size-13 mb-0">Become an Affiliate</p>
+                    </div>
+
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-2 my-3 my-lg-0">
+                        <p class="p-font-size-13">Products</p>
+                        <p class="p-font-size-13 mb-0">Build Your Course</p>
+                        <p class="p-font-size-13 mb-0">Design Your Site</p>
+                        <p class="p-font-size-13 mb-0">Sales & Marketting</p>
+                        <p class="p-font-size-13 mb-0">Support Your Students</p>
+                        <p class="p-font-size-13 mb-0">Security</p>
+                        <p class="p-font-size-13 mb-0">Full Feature List</p>
+                        <p class="p-font-size-13 mb-0">Pricing</p>
+                    </div>
+
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-2 my-3 my-lg-0">
+                        <p class="p-font-size-13">Company</p>
+                        <p class="p-font-size-13 mb-0">About Us</p>
+                        <p class="p-font-size-13 mb-0">Careers</p>
+                        <p class="p-font-size-13 mb-0">Contact Us</p>
+                        <p class="p-font-size-13 mb-0">Events</p>
+                        <p class="p-font-size-13 mb-0">Learning Curve</p>
+                        <p class="p-font-size-13 mb-0">Legal</p>
+                        <p class="p-font-size-13 mb-0">Cousatik Plus</p>
+                        <p class="p-font-size-13 mb-0">Inventors</p>
+                    </div>
+
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-2 my-3 my-lg-0">
+                        <p class="p-font-size-13">Support</p>
+                        <p class="p-font-size-13 mb-0">Help Center</p>
+                        <p class="p-font-size-13 mb-0">Privacy Policy</p>
+                        <p class="p-font-size-13 mb-0">Terms of use</p>
+                        <p class="p-font-size-13 mb-0">Resources</p>
+                        <p class="p-font-size-13 mb-0">Training site</p>
+                        <p class="p-font-size-13 mb-0">Status</p>
+                    </div>
+
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-2 my-3 my-lg-0">
+                        <p class="p-font-size-13">Customers</p>
+                        <p class="p-font-size-13 mb-0">Customers</p>
+                        <p class="p-font-size-13 mb-0">Case Studies</p>
+                        <p class="p-font-size-13 mb-0">Example Websites</p>
+                    </div>
+                </div>
+                <!-- first footer section end here  -->
+            </div>
+        </div>
+        <!-- eightth section end here  -->
+
+        <!-- ninth section start here  -->
+        <div class="row bg-blackish-blue-2 mx-0 py-3">
+            <div class="container">
+                <!-- main footer section start here  -->
+                <div class="row mx-0S text-white">
+                    <div class="col-lg-3 text-center">
+                        <p class="mb-0">Copyright Coursatik 2020</p>
+                    </div>
+                    <div class="col-lg-9 text-center">
+                        <p class="p-font-size-13 mb-0">*Figure based on direct platform sales plus estimated course
+                            sales via off platforms payment processores. Listed in $USD/SAR</p>
+                    </div>
+                </div>
+                <!-- main footer section end here  -->
+            </div>
+        </div>
+        <!-- ninth section end here  -->
+
+    </div>
+
+
+
+</body>
+
+</html>
